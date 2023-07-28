@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dự án 3 làm độc lập</title>
+
+        <!--Link css-->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Public+Sans:wght@500;800&family=Sonsie+One&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="main-content">
+                <!--Navigation-->
+                <div class="navigation header--fixed">
+                    <div class="header--logo">
+                        <a href="/"
+                            ><img src="./assets/svg/logo.svg" alt="MODULARS"
+                        /></a>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="nav--link nav--link__actived"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav--link">About</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav--link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav--link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn sign">
+                        <span>Sign up</span>
+                    </button>
+                </div>
+                <div class="rectangle"></div>
+                <!--  Content Header  -->
+                <section class="header-body">
+                    <img
+                        src="./assets/svg/vines--top.svg"
+                        alt=""
+                        class="textures header--vines__top"
+                    />
+                    <img
+                        src="./assets/svg/flower.svg"
+                        alt=""
+                        class="textures header--flower__top"
+                    />
+                    <img
+                        src="./assets/svg/vines--bot.svg"
+                        alt=""
+                        class="textures header--vines__bot"
+                    />
+                    <img
+                        src="./assets/svg/flower.svg"
+                        alt=""
+                        class="textures header--flower__bot"
+                    />
+                    <div class="header--row">
+                        <!--Header Left-->
+                        <div class="header__left">
+                            <h1 class="header__left--title">
+                                We’re a creative design agency.
+                            </h1>
+                            <p class="header__left--desc">
+                                A brilliant, modular agency template for
+                                startup’s build yours toady.
+                            </p>
+                            <div class="header__left--more">
+                                <button class="btn header--btn">
+                                    Get in touch
+                                </button>
+                                <a href="#!"
+                                    ><div class="link--video">
+                                        <img
+                                            src="./assets/svg/Ellipse 3295.svg"
+                                            alt=""
+                                            class="link--ellip"
+                                        />
+                                        <img
+                                            src="./assets/svg/play button.svg"
+                                            alt=""
+                                            class="link--play"
+                                        />
+                                        <span class="link--desc"
+                                            >Watch Video</span
+                                        >
+                                    </div></a
+                                >
+                            </div>
+                        </div>
+                        <!--Header Right-->
+                        <div class="header__right">
+                            <img
+                                src="./assets/img/right1.jpg"
+                                alt=""
+                                class="img--desc"
+                            />
+                            <img
+                                src="./assets/img/right2.png"
+                                alt=""
+                                class="img--desc"
+                            />
+                            <img
+                                src="./assets/img/right3.jpg"
+                                alt=""
+                                class="img--desc"
+                            />
+                            <div class="header__right--bg"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <main>
+            <div class="main-content">
+                <!--------------------- LOGO --------------------->
+                <section class="logo">
+                    <div class="logo--google">
+                        <a href="#!">
+                            <span class="google--desc">Google</span>
+                        </a>
+                    </div>
+                    <div class="logo--slack">
+                        <img src="./assets/svg/stack.svg" alt="Slack" />
+                        <a href="#!">
+                            <span class="slack--desc">Slack</span>
+                        </a>
+                    </div>
+                    <div class="logo--agworld">
+                        <img src="./assets/svg/agworld.svg" alt="Agworld" />
+                        <a href="#!">
+                            <span class="agworld--desc">Agworld</span>
+                        </a>
+                    </div>
+                    <div class="logo--riotinto">
+                        <a href="#!">
+                            <span class="riotinto--desc">Riotinto</span>
+                        </a>
+                    </div>
+                    <div class="logo--heroku">
+                        <img src="./assets/img/heroku.png" alt="Heroku" />
+                        <a href="#!">
+                            <span class="heroku--desc">HEROKU</span>
+                        </a>
+                    </div>
+                </section>
+                <!--------------------- SERVICES --------------------->
+                <section class="services">
+                    <!--Services Top-->
+                    <div class="services--top">
+                        <p class="services--top--content">OUR SERVICES</p>
+                        <h2 class="services--top--title">
+                            We offer a wide range of design services
+                        </h2>
+                        <div class="services--top--more">
+                            <!--Previous-->
+                            <svg
+                                class="services--more--icon"
+                                width="54"
+                                height="54"
+                                viewBox="0 0 54 54"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <circle
+                                    cx="27"
+                                    cy="27"
+                                    r="27"
+                                    transform="matrix(-1 0 0 1 54 0)"
+                                    fill="currentColor"
+                                />
+                                <path
+                                    class="services--icon__arrow"
+                                    d="M37 27.8235H17M17 27.8235L22.2941 22M17 27.8235L22.2941 33"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                            <!--Next-->
+                            <svg
+                                class="services--more--icon"
+                                width="54"
+                                height="54"
+                                viewBox="0 0 54 54"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <circle
+                                    cx="27"
+                                    cy="27"
+                                    r="27"
+                                    transform="matrix(-1 0 0 1 54 0)"
+                                    fill="currentColor"
+                                />
+                                <path
+                                    class="services--icon__arrow"
+                                    d="M37 27.8235H17M17 27.8235L22.2941 22M17 27.8235L22.2941 33"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--Sevices List-->
+                    <div class="services--list">
+                        <!-- item 1 -->
+                        <section class="services--item">
+                            <img
+                                src="./assets/img/item-sev1.jpg"
+                                alt="Branding"
+                                class="services--img"
+                            />
+                            <div class="services--item--text">
+                                <h3 class="services--item--title">Branding</h3>
+                                <p class="services--item--desc">
+                                    Create beautiful Agency website with
+                                    Boluethat converts more visitors than any
+                                    website.
+                                </p>
+                            </div>
+                        </section>
+                        <!-- item 2 -->
+                        <section class="services--item">
+                            <img
+                                src="./assets/img/item-sev2.jpg"
+                                alt="Web Design"
+                                class="services--img"
+                            />
+                            <div class="services--item--text">
+                                <h3 class="services--item--title">
+                                    Web Design
+                                </h3>
+                                <p class="services--item--desc">
+                                    Create beautiful Agency website with
+                                    Boluethat converts more visitors than any
+                                    website.
+                                </p>
+                            </div>
+                        </section>
+                        <!-- item 3 -->
+                        <section class="services--item">
+                            <img
+                                src="./assets/img/item-sev3.jpg"
+                                alt="Graphic Design"
+                                class="services--img"
+                            />
+                            <div class="services--item--text">
+                                <h3 class="services--item--title">
+                                    Graphic Design
+                                </h3>
+                                <p class="services--item--desc">
+                                    Create beautiful Agency website with
+                                    Boluethat converts more visitors than any
+                                    website.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <!--------------------- ABOUT --------------------->
+                <section class="about">
+                    <img
+                        src="./assets/svg/flower.svg"
+                        alt=""
+                        class="about--flower"
+                    />
+                    <img
+                        src="./assets/svg/vines--top.svg"
+                        alt=""
+                        class="about--vines"
+                    />
+                    <div class="about-row">
+                        <!--About Left-->
+                        <div class="about-left">
+                            <img
+                                src="./assets/img/about1.jpg"
+                                alt=""
+                                class="about-img__big"
+                            />
+                            <img
+                                src="./assets/img/about2.jpg"
+                                alt=""
+                                class="about-img__big"
+                            />
+                            <div class="about-stiker">
+                                <h3 class="about-stiker--title">
+                                    All Desingners
+                                </h3>
+                                <p class="about-stiker--desc">Total Balance</p>
+                                <p class="about-stiker--number"><b>40%</b></p>
+                                <div class="about-stiker--bar"></div>
+                                <p class="about-stiker--load">Loading...</p>
+                                <div class="about-stiker--row">
+                                    <p class="about-stiker--teams">Teams:</p>
+                                    <div class="about-stiker--members">
+                                        <img
+                                            src="./assets/img/avt1.jpg"
+                                            alt=""
+                                            class="stiker--members__avt"
+                                        />
+                                        <img
+                                            src="./assets/img/avt2.jpg"
+                                            alt=""
+                                            class="stiker--members__avt"
+                                        />
+                                        <img
+                                            src="./assets/img/avt3.jpg"
+                                            alt=""
+                                            class="stiker--members__avt"
+                                        />
+                                        <img
+                                            src="./assets/img/avt4.jpg"
+                                            alt=""
+                                            class="stiker--members__avt"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--About Rihgt-->
+                        <div class="about-right">
+                            <p class="about-right--content">ABOUT US</p>
+                            <h2 class="about-right--title">
+                                We are an extention of your creative team
+                            </h2>
+                            <p class="about-right--desc">
+                                At the start of every project, we cusomizea
+                                detailed project plan together with you set
+                                exectationns ensure alighment and define key
+                                milestones and deiverbles.
+                            </p>
+                            <div class="about-right--item">
+                                <p class="about-right--item__number">
+                                    <strong>48%</strong>
+                                </p>
+                                <p class="about-right--item__desc">
+                                    Are you strive for two things in design
+                                    simplicity and clarity. Great design is born
+                                    of those two things
+                                </p>
+                            </div>
+                            <div class="about-right--line"></div>
+                            <div class="about-right--item">
+                                <p class="about-right--item__number">
+                                    <strong>26%</strong>
+                                </p>
+                                <p class="about-right--item__desc">
+                                    Are you strive for two things in design
+                                    simplicity and clarity. Great design is born
+                                    of those two things
+                                </p>
+                            </div>
+                            <div class="about-right--line"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--------------------- PROCESS --------------------->
+                <section class="process">
+                    <p class="process--top--content">OUR PROCESS</p>
+                    <h2 class="process--top--title">
+                        A simple ,yet effective three step process
+                    </h2>
+                    <!--item 1-->
+                    <div class="process--item">
+                        <p class="process--item--num"><strong>01.</strong></p>
+                        <div class="process--item__actived">
+                            <h3 class="process--item--title">Project idea</h3>
+                            <a href="#!" class="process--item--link">
+                                Learn More
+                            </a>
+                        </div>
+                        <img
+                            src="./assets/img/process.png"
+                            alt="People"
+                            class="process--item--img"
+                        />
+                    </div>
+                    <!--item 2-->
+                    <div class="process--item">
+                        <p class="process--item--num"><strong>02.</strong></p>
+                        <h3 class="process--item--title">Brainstormaing</h3>
+                        <p class="process--item--desc">
+                            We customse a ensure aligment and difine key
+                            mileones and defiverables experience tells us the
+                            best solutions are the ones deated with clients.
+                        </p>
+                    </div>
+                    <div class="process--line"></div>
+                    <!--item 3-->
+                    <div class="process--item">
+                        <p class="process--item--num"><strong>03.</strong></p>
+                        <h3 class="process--item--title">Execution</h3>
+                        <p class="process--item--desc">
+                            We customse a ensure aligment and difine key
+                            mileones and defiverables experience tells us the
+                            best solutions are the ones deated with clients.
+                        </p>
+                    </div>
+                    <div class="process--line"></div>
+                </section>
+            </div>
+            <!--------------- FEATURES ----------------->
+            <section class="features">
+                <div class="main-content">
+                    <div class="features-row">
+                        <div>
+                            <h2 class="features--title">
+                                A quick glance of our past projects
+                            </h2>
+                        </div>
+                        <div class="features--more">
+                            <p class="features--desc">
+                                Are you strive for the fast project simplicity
+                                and clarity. Great design is born of those two
+                                things.
+                            </p>
+                            <a href="#!" class="features--link">
+                                <strong>Browse all Projects</strong>
+                                <img
+                                    src="./assets/svg/left arrow.svg"
+                                    alt=""
+                                    class="features--link__img"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="features--video">
+                        <button
+                            class="features--video--btn"
+                            onclick="playPause()"
+                            id="playBtn"
+                        >
+                            <img src="./assets/svg/video button.svg" alt="" />
+                        </button>
+                        <video
+                            id="video1"
+                            class="features--video__clip"
+                            controls
+                        >
+                            <source
+                                src="./assets/video/features.mp4"
+                                type="video/mp4"
+                            />
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                </div>
+            </section>
+            <!--------------- Sevice-Features ----------------->
+            <section class="services-features">
+                <div class="main-content">
+                    <h2 class="services-features--title">
+                        Share the features that help your customers
+                    </h2>
+                    <p class="services-features--desc">
+                        You already know that the customer experience doesn't
+                        end with a sale — it's an ongoing work in progress that
+                        companies should be constantly seeking to improve and
+                        iterate on.
+                    </p>
+                    <div class="services-features--list">
+                        <!--item 1-->
+                        <div class="services-features--item">
+                            <img
+                                src="./assets/svg/blog 1.svg"
+                                alt="Blog"
+                                class="services-features--item__icon"
+                            />
+                            <h3 class="services-features--item__title">Blog</h3>
+                            <p class="services-features--item__desc">
+                                We’ve researched numerous agencies and complied
+                                a list of digital marketing agency blogs you
+                                should read to stay ahead of your rivals and
+                                succeed online!
+                            </p>
+                        </div>
+                        <!--item 2-->
+                        <div class="services-features--item">
+                            <img
+                                src="./assets/svg/file 1.svg"
+                                alt="Documention"
+                                class="services-features--item__icon"
+                            />
+                            <h3 class="services-features--item__title">
+                                Documention
+                            </h3>
+                            <p class="services-features--item__desc">
+                                In this article, we discuss the different types
+                                of documentation, what makes for great technical
+                                documentation, and provide examples.
+                            </p>
+                        </div>
+                        <!--item 3-->
+                        <div class="services-features--item">
+                            <img
+                                src="./assets/svg/customer.svg"
+                                alt="Customers"
+                                class="services-features--item__icon"
+                            />
+                            <h3 class="services-features--item__title">
+                                Customers
+                            </h3>
+                            <p class="services-features--item__desc">
+                                Your customers have high expectations — and if
+                                your business can't meet them, they're going to
+                                leave you for your competitors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--------------- BLOG ARTICLES ----------------->
+            <section class="blog">
+                <div class="main-content">
+                    <p class="blog--name">BLOG & ARTICLES</p>
+                    <div class="blog--row">
+                        <h2 class="blog--title">
+                            Take a look at our latest articles and resources
+                        </h2>
+                        <p class="blog--desc">
+                            The best agency are the ones ideated with clients.
+                            we corporate your ideas with memorable
+                        </p>
+                    </div>
+                    <div class="blog--list">
+                        <!--item1-->
+                        <div class="blog--item">
+                            <div class="blog--item--img__bg">
+                                <img
+                                    src="./assets/img/blog1.jpg"
+                                    alt=""
+                                    class="blog--item__img"
+                                />
+                            </div>
+                            <div class="blog--item--body">
+                                <button class="blog--item--btn btn">
+                                    STORIES
+                                </button>
+                                <h3 class="blog--item--title">
+                                    What did we learn from nunning over 100
+                                    design sprints in less the year?
+                                </h3>
+                                <div class="blog--item--line"></div>
+                                <div class="blog--item--date">
+                                    <span>JANUARY 29, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--item2-->
+                        <div class="blog--item">
+                            <div class="blog--item--img__bg">
+                                <img
+                                    src="./assets/img/blog2.jpg"
+                                    alt=""
+                                    class="blog--item__img"
+                                />
+                            </div>
+                            <div class="blog--item--body">
+                                <button class="blog--item--btn btn">
+                                    STORIES
+                                </button>
+                                <h3 class="blog--item--title">
+                                    The difference between the UI/UX design a
+                                    simple guide for beginner’s
+                                </h3>
+                                <div class="blog--item--line"></div>
+                                <div class="blog--item--date">
+                                    <span>JANUARY 25, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--item3-->
+                        <div class="blog--item">
+                            <div class="blog--item--img__bg">
+                                <img
+                                    src="./assets/img/blog3.png"
+                                    alt=""
+                                    class="blog--item__img"
+                                />
+                            </div>
+                            <div class="blog--item--body">
+                                <button class="blog--item--btn btn">
+                                    STORIES
+                                </button>
+                                <h3 class="blog--item--title">
+                                    How marketing can help your business more
+                                    than anything.
+                                </h3>
+                                <div class="blog--item--line"></div>
+                                <div class="blog--item--date">
+                                    <span>JANUARY 22, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--------------- FOOTER ----------------->
+        <footer class="footer">
+            <div class="main-content">
+                <div class="footer--row">
+                    <div class="footer--actions">
+                        <h2 class="footer--title">
+                            Sign up for our newsletter
+                        </h2>
+                        <form class="footer--form">
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                value="Enter your email"
+                                class="footer--email"
+                            />
+                            <input
+                                type="image"
+                                src="./assets/svg/submit email.svg"
+                                alt="Submit"
+                                class="footer--email__img"
+                            />
+                        </form>
+                        <div class="footer--email--line"></div>
+                        <div class="footer--social">
+                            <div class="footer--social--item">
+                                <img
+                                    src="./assets/svg/facebook-icon.svg"
+                                    alt=""
+                                    class="footer--social__img"
+                                />
+                            </div>
+                            <div class="footer--social--item">
+                                <img
+                                    src="./assets/svg/instagram-icon.svg"
+                                    alt=""
+                                    class="footer--social__img"
+                                />
+                            </div>
+                            <div class="footer--social--item">
+                                <img
+                                    src="./assets/svg/twitter-icon.svg"
+                                    alt=""
+                                    class="footer--social__img"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer--links">
+                        <!-- Column1 -->
+                        <div class="footer--links--column">
+                            <h3 class="footer--links--title">Pages</h3>
+                            <ul>
+                                <li>
+                                    <a href="#!">Home</a>
+                                    <a href="#!">About</a>
+                                    <a href="#!">Blog</a>
+                                    <a href="#!">Blog Post</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Column2 -->
+                        <div class="footer--links--column">
+                            <h3 class="footer--links--title">Product</h3>
+                            <ul>
+                                <li>
+                                    <a href="#!">Home</a>
+                                    <a href="#!">About</a>
+                                    <a href="#!">Blog</a>
+                                    <a href="#!">Blog Post</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Column3 -->
+                        <div class="footer--links--column">
+                            <h3 class="footer--links--title">Overview</h3>
+                            <ul>
+                                <li>
+                                    <a href="#!">Home1</a>
+                                    <a href="#!">Home2</a>
+                                    <a href="#!">Home3</a>
+                                    <a href="#!">Pricing1</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Column4 -->
+                        <div class="footer--links--column">
+                            <h3 class="footer--links--title">About us</h3>
+                            <ul>
+                                <li>
+                                    <a href="#!">Team</a>
+                                    <a href="#!">Ivenstors</a>
+                                    <a href="#!">Blog</a>
+                                    <a href="#!">Press</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer--line"></div>
+            </div>
+        </footer>
+        <!------------------- Java srcipt ---------------->
+        <script src="./assets/java/java.js"></script>
+    </body>
+</html>
